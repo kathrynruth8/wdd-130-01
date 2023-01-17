@@ -1,0 +1,22 @@
+/* element */
+p:nth-child(3),
+h1:nth-child(1) {
+  color: blue;
+}
+
+/* id */
+/* not really a point to using id's. classes can be reused, id's can't. 
+An id is only meant to be applied once. An id is more unique to the code, 
+so an id will take prescendence over classes */
+
+#bigText {
+  font-size: 500%;
+  color: purple;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+/* classes */
+.redText {
+  color: red;
+  background-color: palevioletred;
+}
