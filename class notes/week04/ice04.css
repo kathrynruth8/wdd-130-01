@@ -1,6 +1,6 @@
 body {
   max-width: 720px;
-  margin: 0 auto;
+  margin: auto;
   padding: 4em;
   font-size: 18px;
   text-align: center;
@@ -11,4 +11,37 @@ img {
   display: block;
   margin: 0 auto;
   max-width: 300px;
+}
+
+h1 {
+  font-family: var(--heading-font);
+  color: var(--headline-color-on-white);
+  color: white;
+}
+
+h1:hover {
+  color: black;
+}
+
+ol {
+  list-style-position: inside;
+  color: black;
+  text-align: left;
+}
+
+.edu_quote {
+  color: white;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 14px;
+}
+
+.pres_nelson {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 14px;
+}
+.gospel_quote {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
 }
