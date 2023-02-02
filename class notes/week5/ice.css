@@ -1,0 +1,21 @@
+.image_container {
+  background-color: grey;
+  width: 100%;
+  float: left;
+  padding: 20px;
+}
+
+.circle_image {
+  border-radius: 50%;
+  border: 20px solid #555;
+  height: 350px;
+}
+
+.center_image {
+  float: left;
+  padding: 20px;
+}
+
+.head_image {
+  width: 100%;
+}

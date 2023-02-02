@@ -1,0 +1,35 @@
+div {
+  text-align: center;
+  color: black;
+  height: 50px;
+  margin: 0 auto;
+}
+
+.red {
+  background-color: red;
+  width: 50%;
+}
+
+.blue {
+  background-color: blue;
+  width: 60%;
+}
+.green {
+  background-color: green;
+  width: 70%;
+}
+
+.purple {
+  background-color: purple;
+  width: 70%;
+  margin-top: 100px;
+  display: flex;
+  text-align: center;
+}
+
+.square {
+  background-color: purple;
+  width: 100px;
+  height: 100px;
+  flex: 1;
+}
