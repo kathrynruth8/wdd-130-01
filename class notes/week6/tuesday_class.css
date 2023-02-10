@@ -1,0 +1,35 @@
+.content1 {
+  /* This is the parent of the activity 6 boxes. */
+  display: grid;
+  grid-template-columns: 1fr, 1fr, 1fr, 1fr, 1fr;
+  grid-gap: 10px;
+}
+.blue1 {
+  width: 100%;
+  height: 100px;
+  background-color: blue;
+}
+.red1 {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  grid-column: 1/2;
+}
+.pink1 {
+  width: 100px;
+  height: 100px;
+  background-color: pink;
+  grid-column: 2/4;
+}
+.yellow1 {
+  width: 100px;
+  height: 100px;
+  background-color: yellow;
+  grid-column: 4/5;
+}
+
+.black1 {
+  width: 100px;
+  height: 100px;
+  background-color: black;
+}
