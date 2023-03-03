@@ -1,0 +1,37 @@
+#content {
+  max-width: 1600px;
+  margin: 0 auto;
+}
+
+.rivers-grid {
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+}
+
+#salmon-background {
+  height: 725px;
+  background-color: #d8f793;
+  grid-column: 1/11;
+  grid-row: 4/9;
+}
+
+.salmon {
+  width: 100%;
+  grid-column: 2/7;
+  grid-row: 5/8;
+  box-shadow: 5px 5px 10px #6f7364;
+}
+
+.salmon-msg {
+  background-color: #2c3d55;
+  color: white;
+  line-height: 1.5em;
+  padding: 35px;
+  grid-column: 6/10;
+  grid-row: 6/7;
+  box-shadow: 5px 5px 10px #6f7364;
+}
+
+.salmon-msg p {
+  padding-bottom: 15px;
+}
