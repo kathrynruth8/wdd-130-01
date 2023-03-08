@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="forms.css" />
+    <script>
+      function sayHello(event) {
+        alert("Hi, " + event.target[0].value);
+        let firstName = document.getElementById("firstName").value;
+        alert(firstName);
+      }
+    </script>
+    <title>Week 10 Forms Practice</title>
+  </head>
+  <body>
+    <h1>Week 10 Forms Practice</h1>
+    <form action="" onsubmit="sayHello(event)">
+      <h2>Username</h2>
+      <label>First Name:</label>
+      <input type="text" />
+      <label>Last Name:</label>
+      <input type="text" />
+      <h2>User Information</h2>
+      <h3>User Age</h3>
+      <label for=""></label>
+      <label for="">Child</label>
+      <input type="radio" name="Age" value="child" />
+      <br />
+      <label for="">Teenager</label>
+      <input type="radio" name="Age" value="teenager" />
+      <br />
+      <label for="">Adult</label>
+      <input type="radio" name="Age" value="adult" />
+      <h3>Birthday</h3>
+      <label for="">Please enter your birthday (mm/dd/yyy): </label>
+      <input type="text" />
+      <h3>Sensitive Information</h3>
+      <label for="">Social Security Number: </label>
+      <input type="text" />
+      <h2>Other information</h2>
+      <label for="">You will subscribe, and you will love it!</label>
+      <input checked type="checkbox" />
+      <br /><br />
+      <input type="submit" />
+      <br /><br />
+    </form>
+  </body>
+</html>
