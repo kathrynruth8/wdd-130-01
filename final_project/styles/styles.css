@@ -1,9 +1,13 @@
 /* Navbar */
 @import url("https://fonts.googleapis.com/css2?family=Antic+Slab&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=DM+Serif+Text&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Anton&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap");
 
 #content {
-  max-width: 1600px;
+  max-width: 100%;
   margin: 0 auto;
 }
 body {
@@ -76,12 +80,11 @@ footer .social img {
 #hero-container {
   z-index: -1;
   display: grid;
-  position: absolute;
+  position: relative;
 }
 #hero-msg {
   position: absolute;
-  bottom: 325px;
-  top: 350px;
+  top: 250px;
   right: 250px;
   left: 800px;
   z-index: 0;
@@ -95,6 +98,10 @@ footer .social img {
 #hero-msg p {
   font-size: 16pt;
   font-family: "Antic Slab", Arial, Helvetica;
+}
+#hero-msg h2 {
+  font-size: 25pt;
+  font-family: "Oswald", Arial, Helvetica, sans-serif;
 }
 #hero-icecream {
   width: 100%;
@@ -118,4 +125,71 @@ footer .social img {
   color: #aec5eb;
   text-decoration: none;
   font-size: 18px;
+}
+#quote-container {
+  display: grid;
+  position: relative;
+  margin-top: -50px;
+}
+#star-icon1 {
+  width: 50px;
+  position: absolute;
+  top: 200px;
+  right: 100px;
+  opacity: 70%;
+}
+#star-icon2 {
+  width: 50px;
+  position: absolute;
+  top: 200px;
+  left: 100px;
+  opacity: 70%;
+}
+#flavors-heading {
+  text-align: center;
+  background-color: #aec5eb;
+  width: 100%;
+  height: 500px;
+}
+#flavors-heading h1 {
+  font-family: "Oswald", Arial, Helvetica, sans-serif;
+  color: #3a405a;
+}
+#flavors-heading h2 {
+  font-family: "Oswald", Arial, Helvetica, sans-serif;
+  font-weight: 200;
+  color: #3a405a;
+}
+
+.flavors-link {
+  text-decoration: none;
+  font-family: "Oswald", Helvetica, sans-serif;
+  color: #3a405a;
+  font-weight: bold;
+}
+#flavors-msg hr {
+  border: 0.5px solid #3a405a;
+  width: 15%;
+}
+#bestsellers h1,
+h3 {
+  font-family: "Oswald", Arial, Helvetica, sans-serif;
+  font-weight: 200;
+  color: #3a405a;
+}
+#bestsellers h3 {
+  font-size: 35px;
+}
+#bestsellers_img1 {
+  width: 500px;
+}
+#bestsellers_img2 {
+  width: 500px;
+}
+#bestsellers_img3 {
+  width: 500px;
+}
+
+.spaceOnTop {
+  padding-top: 100px;
 }
