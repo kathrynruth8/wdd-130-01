@@ -232,3 +232,51 @@ h1 {
 .spaceOnTop {
   padding-top: 100px;
 }
+#flavors_heading {
+  background-color: #3a405a;
+  color: white;
+  height: auto;
+  padding: 20px;
+}
+#flavors_heading h3 {
+  font-family: "Oswald", Arial, Helvetica, sans-serif;
+  font-weight: 200;
+  color: white;
+  font-size: 35px;
+  text-align: center;
+  vertical-align: center;
+  margin-top: -5px;
+}
+#flavors_heading p {
+  font-family: "Oswald", Arial, Helvetica, sans-serif;
+  font-weight: 200;
+  color: white;
+  font-size: 20px;
+  margin-top: -30px;
+  margin-left: 40px;
+  margin-right: 40px;
+  text-align: center;
+  vertical-align: center;
+}
+#row1_flavors {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+#row1_flavors h3 {
+  font-family: "Oswald", Arial, Helvetica, sans-serif;
+  font-weight: 200;
+  color: black;
+  font-size: 35px;
+  text-align: center;
+}
+#row1_flavors p {
+  font-family: "Oswald", Arial, Helvetica, sans-serif;
+  font-weight: 200;
+  color: black;
+  font-size: 20px;
+  text-align: center;
+}
+#row1_text {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
