@@ -45,7 +45,6 @@ footer {
   background-color: #ff9999;
   color: #3a405a;
   padding: 25px 50px;
-  margin-top: 200px;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -74,34 +73,35 @@ footer .social img {
   width: 70px;
   z-index: -1;
 }
-#hero-container {
+.hero-container {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+  height: 600px;
 }
-#hero-msg {
+.hero-msg {
   background-color: #aec5eb;
   color: #3a405a;
   text-align: center;
   grid-column: 3/6;
   grid-row: 2/5;
   z-index: 1;
-  margin-left: 70px;
-  margin-right: 75px;
-  margin: 60px;
+  margin-right: 50px;
 }
-#hero-msg p {
+.hero-msg p {
   font-size: 16pt;
   font-family: "Antic Slab", Arial, Helvetica;
+  padding-left: 20px;
+  padding-right: 20px;
 }
-#hero-msg h2 {
+.hero-msg h2 {
   font-size: 25pt;
   font-family: "Oswald", Arial, Helvetica, sans-serif;
 }
-#hero-icecream {
+.hero-image {
   width: 100%;
 }
-#hero-icecream-container {
+.hero-image-container {
   grid-column: 1/6;
   grid-row: 1/6;
 }
@@ -170,26 +170,26 @@ h1 {
 .bestsellers h1 {
   margin: 40px;
 }
-#bestsellers h3 {
+.bestsellers h3 {
   font-family: "Oswald", Arial, Helvetica, sans-serif;
   font-weight: 200;
   color: #3a405a;
   font-size: 35px;
 }
-#bestsellers {
+.bestsellers {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   text-align: center;
 }
-#bestsellers_img1 {
+.bestsellers_img1 {
   width: 400px;
   grid-column: 1/2;
 }
-#bestsellers_img2 {
+.bestsellers_img2 {
   width: 400px;
   grid-column: 2/3;
 }
-#bestsellers_img3 {
+.bestsellers_img3 {
   width: 400px;
   grid-column: 3/4;
 }
@@ -370,4 +370,117 @@ h1 {
   font-size: 30px;
   margin-top: 5px;
   margin-bottom: auto;
+}
+
+.hero-container-os {
+  display: grid;
+  grid-template-columns: 80px 1fr 1fr 1fr;
+  grid-template-rows: 150px 1fr 1fr;
+}
+.hero-msg-os {
+  background-color: #aec5eb;
+  color: #3a405a;
+  text-align: center;
+  grid-column: 2/3;
+  grid-row: 2/3;
+  z-index: 1;
+}
+.hero-msg-os p {
+  font-size: 16pt;
+  font-family: "Antic Slab", Arial, Helvetica;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.hero-msg-os h2 {
+  font-size: 25pt;
+  font-family: "Oswald", Arial, Helvetica, sans-serif;
+}
+#about_flavors {
+  background-color: white;
+  text-align: center;
+  padding-left: 400px;
+  padding-right: 400px;
+  padding-bottom: 100px;
+}
+#about_flavors h3 {
+  font-family: "Oswald", Arial, Helvetica, sans-serif;
+  font-weight: 200;
+  color: #3a405a;
+  font-size: 35px;
+}
+#about_flavors p,
+#about_flavors a {
+  font-family: "Oswald", Arial, Helvetica, sans-serif;
+  font-weight: 200;
+  color: #3a405a;
+  font-size: 23px;
+}
+#about_flavors a {
+  color: #d33f49;
+}
+#meet_kate {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  text-align: left;
+}
+#meet_kate_img {
+  width: 100%;
+  grid-column: 1/2;
+}
+#meet_kate h3 {
+  font-family: "Oswald", Arial, Helvetica, sans-serif;
+  font-weight: 800;
+  color: #3a405a;
+  font-size: 35px;
+  padding-left: 150px;
+  padding-right: 110px;
+}
+#meet_kate p {
+  font-family: "Oswald", Arial, Helvetica, sans-serif;
+  font-weight: 200;
+  color: #3a405a;
+  font-size: 23px;
+  padding-left: 150px;
+  padding-right: 110px;
+}
+#meet_kate h2 {
+  font-family: "Oswald", Arial, Helvetica, sans-serif;
+  font-weight: 200;
+  color: #d33f49;
+  font-size: 35px;
+  padding-left: 150px;
+  padding-right: 110px;
+}
+
+#meet_kate_msg {
+  grid-column: 2/3;
+  padding-top: 200px;
+}
+#instagram-msg h3 {
+  font-family: "Oswald", Arial, Helvetica, sans-serif;
+  font-weight: 800;
+  color: #3a405a;
+  font-size: 35px;
+  margin: auto;
+}
+#instagram-msg h2 {
+  font-family: "Oswald", Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  color: #d33f49;
+  font-size: 20px;
+  margin: auto;
+}
+#instagram-msg {
+  padding-left: 80px;
+  margin: auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+#instagram img {
+  width: 300px;
+  padding: 10px;
+}
+#instagram {
+  padding-left: 70px;
+  padding-right: 70px;
 }
