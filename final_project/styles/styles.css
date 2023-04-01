@@ -1,8 +1,5 @@
 /* Navbar */
 @import url("https://fonts.googleapis.com/css2?family=Antic+Slab&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Text&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Anton&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap");
 
@@ -134,38 +131,6 @@ footer .social img {
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr;
 }
-#star-icon1 {
-  width: 50px;
-  opacity: 70%;
-  grid-column: 1/2;
-  grid-row: 2/3;
-  margin-left: 130px;
-  margin-top: 30px;
-}
-#star-icon1img {
-  width: 50px;
-  opacity: 70%;
-  grid-column: 1/2;
-  grid-row: 2/3;
-  margin-left: 130px;
-  margin-top: 30px;
-}
-#star-icon2 {
-  width: 50px;
-  opacity: 70%;
-  grid-column: 4/5;
-  grid-row: 2/3;
-  margin-left: 100px;
-  margin-top: 30px;
-}
-#star-icon2img {
-  width: 50px;
-  opacity: 70%;
-  grid-column: 4/5;
-  grid-row: 2/3;
-  margin-left: 100px;
-  margin-top: 30px;
-}
 #flavors-heading {
   text-align: center;
   background-color: #aec5eb;
@@ -258,28 +223,151 @@ h1 {
   text-align: center;
   vertical-align: center;
 }
-#row1_flavors {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+/* Image Overlay */
+.container {
+  position: relative;
 }
-#row1_flavors h3 {
-  font-family: "Oswald", Arial, Helvetica, sans-serif;
-  font-weight: 200;
-  color: black;
-  font-size: 35px;
-  text-align: center;
-}
-#row1_flavors p {
-  font-family: "Oswald", Arial, Helvetica, sans-serif;
-  font-weight: 200;
-  color: black;
-  font-size: 20px;
-  text-align: center;
-}
-#row1_text {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-}
-#row1_flavors img {
+.container:hover .overlay {
+  opacity: 1;
   width: 400px;
+}
+.text {
+  font-family: "Oswald", Arial, Helvetica, sans-serif;
+  font-weight: 200;
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  height: 534.45px;
+  width: 400px;
+  opacity: 0;
+  transition: 0.3s ease;
+  margin-left: 40px;
+  background-color: #d33f49;
+}
+.overlay-orange {
+  position: absolute;
+  top: 0;
+  height: 534.45px;
+  width: 400px;
+  opacity: 0;
+  transition: 0.3s ease;
+  margin-left: 40px;
+  background-color: #fddba0;
+}
+.container:hover .overlay-orange {
+  opacity: 1;
+  width: 400px;
+}
+.overlay-hotpink {
+  position: absolute;
+  top: 0;
+  height: 534.45px;
+  width: 400px;
+  opacity: 0;
+  transition: 0.3s ease;
+  margin-left: 40px;
+  background-color: #e27fd5;
+}
+.container:hover .overlay-hotpink {
+  opacity: 1;
+  width: 400px;
+}
+.overlay-blue {
+  position: absolute;
+  top: 0;
+  height: 534.45px;
+  width: 400px;
+  opacity: 0;
+  transition: 0.3s ease;
+  margin-left: 40px;
+  background-color: #83d6f0;
+}
+.container:hover .overlay-blue {
+  opacity: 1;
+  width: 400px;
+}
+.overlay-pink {
+  position: absolute;
+  top: 0;
+  height: 534.45px;
+  width: 400px;
+  opacity: 0;
+  transition: 0.3s ease;
+  margin-left: 40px;
+  background-color: #f4989d;
+}
+.container:hover .overlay-pink {
+  opacity: 1;
+  width: 400px;
+}
+.overlay-teal {
+  position: absolute;
+  top: 0;
+  height: 534.45px;
+  width: 400px;
+  opacity: 0;
+  transition: 0.3s ease;
+  margin-left: 40px;
+  background-color: #357e80;
+}
+.container:hover .overlay-teal {
+  opacity: 1;
+  width: 400px;
+}
+.overlay-yellow {
+  position: absolute;
+  top: 0;
+  height: 534.45px;
+  width: 400px;
+  opacity: 0;
+  transition: 0.3s ease;
+  margin-left: 40px;
+  background-color: #f2c102;
+}
+.container:hover .overlay-yellow {
+  opacity: 1;
+  width: 400px;
+}
+.overlay-lightpink {
+  position: absolute;
+  top: 0;
+  height: 534.45px;
+  width: 400px;
+  opacity: 0;
+  transition: 0.3s ease;
+  margin-left: 40px;
+  background-color: #f0ced5;
+}
+.container:hover .overlay-lightpink {
+  opacity: 1;
+  width: 400px;
+}
+
+/* Image Hover end */
+
+#flavors h3 {
+  font-family: "Oswald", Arial, Helvetica, sans-serif;
+  font-weight: 200;
+  color: #3a405a;
+  font-size: 35px;
+  margin-top: 5px;
+  margin-bottom: 80px;
+}
+#flavors h2 {
+  font-family: "Oswald", Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  color: white;
+  font-size: 30px;
+  margin-top: 5px;
+  margin-bottom: auto;
 }
